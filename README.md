@@ -1,5 +1,6 @@
 # stm8s-discovery-sdcc-blink
-A minimal demo project demonstrating blink &amp; build with SDCC &amp; CMake
+A minimal demo project demonstrating blink &amp; build with SDCC &amp; CMake.
+**This project is mainly intended to be used as a template for custom projects.**
 
 It is built for the [STM8S-DISCOVERY](https://www.st.com/en/evaluation-tools/stm8s-discovery.html?sc=stm8s-discovery) but should be very easy to port to other STM8 devices.
 
