@@ -8,7 +8,7 @@ Based on [this public domain previous work](http://www.colecovision.eu/stm8/L-Di
 
 This project does NOT use the STM8 peripheral library. I might release a STM8PL-based variant in the future.
 
-Also see [my blogpost on the CMake build system](https://techoverflow.net/2019/06/08/a-working-sdcc-stm8-cmake-configuration/).
+Also see [my blogpost on the CMake build configuration](https://techoverflow.net/2019/06/08/a-working-sdcc-stm8-cmake-configuration/) used for this project.
 
 # Prerequisites
 
