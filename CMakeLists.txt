@@ -13,4 +13,4 @@ SET(CMAKE_C_FLAGS "-mstm8 --std-c99")
 add_executable(main.ihx main.c)
 
 # Flash targets
-add_custom_target(flash ALL COMMAND stm8flash -c stlink -p stm8s105c6 -w main.ihx)
+add_custom_target(flash COMMAND stm8flash -c stlink -p stm8s105c6 -w main.ihx)
