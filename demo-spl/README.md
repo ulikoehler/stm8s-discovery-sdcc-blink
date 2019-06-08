@@ -1,13 +1,11 @@
-# stm8s-discovery-sdcc-blink
-A minimal demo project demonstrating blink &amp; build with SDCC &amp; CMake.
+# stm8s-discovery-sdcc-blink (demo-spl)
+A minimal demo project demonstrating blink &amp; build with SDCC &amp; CMake using the STM8S Standard Peripheral Library (SPL) [modified for the SDCC compiler](https://github.com/ulikoehler/STM8S-SDCC-SPL).
+
 **This project is mainly intended to be used as a template for custom projects.**
 
+*Note:* This project requires at least SDCC 3.4.3!
+
 It is built for the [STM8S-DISCOVERY](https://www.st.com/en/evaluation-tools/stm8s-discovery.html?sc=stm8s-discovery) but should be very easy to port to other STM8 devices.
-
-
-Based on [this public domain previous work](http://www.colecovision.eu/stm8/L-Discovery%20LED.shtml) but with an actual build system.
-
-This project does NOT use the STM8 peripheral library. I might release a STM8PL-based variant in the future.
 
 Also see [my blogpost on the CMake build configuration](https://techoverflow.net/2019/06/08/a-working-sdcc-stm8-cmake-configuration/) used for this project.
 
@@ -21,7 +19,11 @@ I tested this on Ubuntu 18.04
 
 # How to compile & flash
 
+This project pulls the [STM8S peripheral library](https://github.com/ulikoehler/STM8S-SDCC-SPL) using *git submodule*.
+
 ```sh
+git submodule init
+git submodule update
 cmake .
 make
 make flash
