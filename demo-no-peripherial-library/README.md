@@ -7,7 +7,7 @@ It is built for the [STM8S-DISCOVERY](https://www.st.com/en/evaluation-tools/stm
 
 Based on [this public domain previous work](http://www.colecovision.eu/stm8/L-Discovery%20LED.shtml) but with an actual build system.
 
-This project does NOT use the STM8 peripheral library. I might release a STM8PL-based variant in the future.
+This project does NOT use the STM8 peripheral library. There is a separate demo available using the STM8S standard peripheral library, see the [project index](https://github.com/ulikoehler/stm8s-discovery-sdcc-blink)
 
 Also see [my blogpost on the CMake build configuration](https://techoverflow.net/2019/06/08/a-working-sdcc-stm8-cmake-configuration/) used for this project.
 
